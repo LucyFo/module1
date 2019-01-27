@@ -1,0 +1,245 @@
+@font-face {
+  font-family: 'Aleo', serif;
+  src: url('./fonts/aleo-regular-webfont.woff2');
+}
+@font-face {
+  font-family: 'Josefin Sans', sans-serif;
+  src: url('./fonts/JosefinSans.ttf');
+}
+@font-face {
+  font-family: 'Josefin Sans-Bold', sans-serif;
+  src: url('./fonts/JosefinSans-Bold.ttf');
+}
+@font-face {
+  font-family: 'Josefin Sans-Light', sans-serif;
+  src: url('./fonts/JosefinSans-Light.ttf');
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #383e3f;
+  font-size: 16px;
+  color: #262626;
+}
+body * {
+  box-sizing: border-box;
+}
+img {
+  width: auto;
+  max-width: 100%;
+}
+h1,
+h2,
+h3,
+h4 {
+  margin: 0 auto;
+  text-align: center;
+  color: #ffffff;
+}
+.wrapper {
+  margin: 0 auto;
+  width: 1110px;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+p,
+.header-logo {
+  color: #ffffff;
+}
+header h1,
+h2,
+h3,
+h4
+a {
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+}
+header {
+  background: url("./images/header_bg.png") no-repeat;
+  min-height: 100vh;
+}
+.search {
+  padding: 263px 0 267px;
+}
+
+.search h1 {
+  margin-bottom: 20px;
+  letter-spacing: 10px;
+}
+header p {
+  margin: 0 auto 50px;
+  font-size: 22px;
+  letter-spacing: 3px;
+}
+.form-inline {
+  margin: 0 auto;  
+  display: flex;
+  justify-content: space-between;
+  width: 650px;
+  background-color: white;
+}
+/* .form-inline label {
+  margin: 5px 10px 5px 0;
+} */
+.form-inline input {
+  width: 500px;
+  border: none;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  text-align: center;
+  color: #bbbbbb;
+}
+.form-inline button {
+  width: 145px;
+  height: 55px;
+  background-color: #5474fd;
+  border: 1px solid #ddd;
+  color: white;
+  cursor: pointer;
+}
+.header-logo {
+  float: left;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
+}
+nav {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+  padding: 29px 32px;
+  overflow: hidden;
+  text-align: right;
+  font-family: 'Aleo', serif;
+  text-transform: uppercase;
+  background-color: #5474fd;
+}
+nav a {
+  font-family: 'Aleo', serif;
+  margin-left: 39px;
+  font-size: 14px;
+}
+.scroll-down {
+  margin-top: auto;
+  margin-bottom: 10%;
+}
+.why-choose-us {
+  background: url("./images/castle.png") no-repeat 0 0;
+  min-height: 686px;
+}
+.content {
+  padding-top: 120px;
+  display: flex;
+  justify-content: space-between;
+}
+.why-choose-us h2 {
+  margin-bottom: 60px;
+  font-family: 'Aleo', serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 26px;
+  color: #ffffff;
+  text-transform: none;
+}
+.why-choose-us p {
+  width: 541px;
+  margin-bottom: 38px;
+}
+.why-choose-us .content a {
+  padding: 20px 0;
+  display: block;
+  width: 227px;
+  height: 60px;
+  font-family: 'Aleo', serif;
+  background-color: #5474fd;
+}
+.how-it-works {
+  background-color: #333333;
+  min-height: 337px;
+}
+.icons {
+  background-color: #333333;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 337px;
+}
+.icons h2 {
+  margin-top: 30px;
+  font-family: 'Aleo', serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 26px;
+  color: #ffffff;
+  text-transform: none;
+}
+.text {
+  width: 50%;
+  padding-top: 80px;
+  justify-content: flex-start;
+}
+.images,
+.book {
+  width: 50%;
+}
+.image-left {
+  text-align: left;
+  margin-left: 65px;
+}
+.image-right {
+  text-align: right;
+}
+.book-now {
+  min-height: 698px;
+  background: url('./images/mountains.png')no-repeat, 0 0;
+}
+.book-now .wrapper {
+  padding: 121px 0 208px;
+}
+.book {
+  margin-left: 52%;
+  width: 541px;
+  height: 371px;
+  background-color: #2b2527;
+}
+.book-content {
+  padding: 50px 25px ;
+}
+.book-content p {
+  margin-bottom: 45px;
+  width: 470px;
+  font-size: 16px;
+  font-family: 'Josefin Sans', sans-serif;
+  line-height: 25px;
+  text-align: left;
+}
+.book-content button {
+  margin-left: 50%;
+  width: 225px;
+  height: 60px;
+  background-color: #496bfe;
+  border: none;
+  color: #ffffff;
+  font-family: 'Aleo', serif;
+  font-size: 16px;
+  text-transform: uppercase;  
+}
+.book h3 {
+  text-align: left;
+  text-transform: none;
+  font-weight: normal;
+}
+.title {
+  margin: 27px 0;
+  text-align: left;  
+  font-size: 20px;
+  text-transform: uppercase;
+}
