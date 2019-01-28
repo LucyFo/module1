@@ -76,6 +76,7 @@ h4 a {
 
 header {
   background: url("./images/header_bg.png") no-repeat;
+  background-size: 100%;
   min-height: 100vh;
 }
 
@@ -159,6 +160,7 @@ nav a {
 
 .why-choose-us {
   background: url("./images/castle.png") no-repeat 0 0;
+  background-size: 100%;
   min-height: 686px;
 }
 
@@ -239,6 +241,7 @@ nav a {
 .book-now {
   min-height: 698px;
   background: url('./images/mountains.png')no-repeat, 0 0;
+  background-size: 100%;
 }
 
 .book-now .wrapper {
@@ -295,6 +298,7 @@ nav a {
 
 .testimonial {
   background: url('./images/tourist_bg.png') no-repeat 0 0;
+  background-size: 100%;
   min-height: 732px;
 }
 
